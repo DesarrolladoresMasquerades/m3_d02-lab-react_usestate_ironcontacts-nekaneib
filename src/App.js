@@ -10,6 +10,7 @@ function App() {
   function randomContact(){
     let randomNumber = Math.floor(Math.random() * contactsArray.length)
     const randomContact = contactsArray[randomNumber]
+    
 
     setContacts(contactsList =>[...contactsList, randomContact]);
   }
